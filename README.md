@@ -1,0 +1,3 @@
+# JavaScript NaN Bug
+
+This repository demonstrates a common JavaScript error: unexpected NaN results when a function doesn't properly handle undefined inputs. The `foo` function works as expected when the input is null. However, it unexpectedly returns NaN for undefined inputs. This can lead to unexpected behavior in applications. The solution shows how to correctly handle undefined values to avoid this issue.
